@@ -1,0 +1,48 @@
+.menu {
+  border-bottom: 1px solid #333;
+}
+
+.menu .container {
+  padding: 10px 0;
+  display: flex;
+
+  a {
+    text-decoration: none;
+    color: #000;
+    margin-right: 20px;
+    transition: color 0.3s;
+    font-size: 1.1em;
+    line-height: 40px;
+
+    &:hover {
+      color: orange;
+    }
+  }
+
+  input {
+    width: 400px;
+  }
+
+  p {
+    flex: 1;
+    line-height: 40px;
+    text-align: right;
+
+    i {
+      font-size: 1.5em;
+      color: #7AD3FC;
+    }
+
+    span {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: #999;
+      color: #fff;
+      line-height: 20px;
+      text-align: center;
+      font-size: 12px;
+    }
+  }
+}

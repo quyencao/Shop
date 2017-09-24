@@ -1,0 +1,29 @@
+.top-nav {
+  height: 40px;
+  background-color: #3B5598;
+
+  .row {
+    display: flex;
+    color: #fff;
+
+    p {
+      flex: 1;
+      line-height: 40px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #fff;
+      margin-right: 20px;
+      line-height: 40px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    i {
+      margin-right: 10px;
+    }
+  }
+}
